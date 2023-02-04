@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+   <!-- awal navigasi -->
+   <nav class="navbar navbar-expand-lg bg-primary-subtle">
+    <div class="container ">
+      <a class="navbar-brand text-white href"="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-info" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+   <!-- akhir navigasi -->
+   <!-- awal header -->
+   <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1537832816519-689ad163238b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="500px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="500px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1479064555552-3ef4979f8908?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="500px" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <!-- akhir header -->
+   <!-- awal produk -->
+   <div class="container-fluid mt-5">
+       <div class="container-fluid">
+           <div class="col">
+               <h3>Produk Terlaris</h3>
+               <p>Promo untuk spesial Lebaran</p>
+           </div>
+           <div class="row mt-5 ">
+            <div class="col-6 col-mt-3 col-sm-4 col-lg-2">
+                <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="200px" alt="">
+                <h3>Baju Fashion</h3>
+                <p>Rp 250.000</p>
+                <div class="btn btn-primary">Beli sekarang</div>
+                </div>
+                <div class="col-6 col-mt-3 col-sm-4 col-lg-2">
+                    <img src="https://images.unsplash.com/photo-1585914924626-15adac1e6402?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODh8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="200px" alt="">
+                    <h3>Baju Fashion</h3>
+                    <p>Rp 250.000</p>
+                    <div class="btn btn-primary">Beli sekarang</div>
+                    </div>
+                    <div class="col-6 col-mt-3 col-sm-4 col-lg-2">
+                        <img src="https://images.unsplash.com/flagged/photo-1570733117311-d990c3816c47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"width="200px" alt="">
+                        <h3>Baju Fashion</h3>
+                        <p>Rp 250.000</p>
+                        <div class="btn btn-primary">Beli sekarang</div>
+                        </div>
+                        <div class="col-6 col-mt-3 col-sm-4 col-lg-2">
+                            <img src="https://images.unsplash.com/photo-1519748771451-a94c596fad67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM4fHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="200px" alt="">
+                            <h3>Baju Fashion</h3>
+                            <p>Rp 250.000</p>
+                            <div class="btn btn-primary">Beli sekarang</div>
+                            </div>
+                            <div class="col-6 col-mt-3 col-sm-4 col-lg-2">
+                                <img src="https://images.unsplash.com/photo-1612731486606-2614b4d74921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQxfHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="200px" alt="">
+                                <h3>Baju Fashion</h3>
+                                <p>Rp 250.000</p>
+                                <div class="btn btn-primary">Beli sekarang</div>
+                            </div>
+                            <div class="col-6 col-mt-3 col-sm-4 col-lg-2">
+                                <img src="https://images.unsplash.com/photo-1529720317453-c8da503f2051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM2fHxmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="200px" alt="">
+                                <h3>Baju Fashion</h3>
+                                <p>Rp 250.000</p>
+                                <div class="btn btn-primary">Beli sekarang</div>
+                 </div>
+            </div>
+       </div>
+   </div>
+ 
+   <!-- akhir produk -->
+   <!-- awal desain -->
+   <div class="container-fluid">
+       <div class="row mt-5">
+           <div class="col">
+               <h3>Our Desaigner</h3>
+               <p>Pakaian Kami dibuat dengan Desaigner Propesional</p>
+
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-6 col-sm-3 text-center">
+               <img src="https://plus.unsplash.com/premium_photo-1669135314888-0ef7a513cfbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width="150px" height="150px" class="rounded-circle" alt="">
+               <h3>Siti baiyah&Suci Nayla</h3>
+        </div>
+        <div class="col-6 col-sm-3 text-center">
+            <img src="https://images.unsplash.com/photo-1591035897819-f4bdf739f446?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjc2fHxwZW9wbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="150px" height="150px" class="rounded-circle" alt="">
+            <h3>Siti butik</h3>
+        </div>
+        <div class="col-6 col-sm-3 text-center">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjAzfHxwZW9wbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="150px" height="150px" class="rounded-circle" alt="">
+            <h3>suci butik</h3>
+        </div>
+        <div class="col-6 col-sm-3 text-center">
+            <img src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjI2fHxwZW9wbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="150px" height="150px" class="rounded-circle" alt="">
+            <h3>siti&suci butik</h3>
+        </div>
+
+        </div>
+    </div>
+   <!-- akhir desain -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
